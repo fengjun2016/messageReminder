@@ -6,6 +6,7 @@ import (
 	"errors"
 )
 
+// 定义封装好的websocket结构体字段
 type Connection struct {
 	wsConnect *websocket.Conn
 	inChan chan []byte
